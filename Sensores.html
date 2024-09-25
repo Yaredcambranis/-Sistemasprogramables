@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>Sensores </title>
+    <meta name="description" content="Una presentación sobre sensores">
+    <meta name="author" content="Tu Nombre">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/black.css" id="theme">
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.js"></script>
+
+    <style>
+        body {
+            background-color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="reveal">
+        <div class="slides">
+
+            <section data-background="#e74c3c">
+                <h1>Sensores</h1>
+                <p><strong>Subtítulo:</strong> Tipos, funcionamiento y modos de comunicación</p>
+            </section>
+
+            <section data-background="#f1c40f">
+                <h1>Introducción</h1>
+                <p><strong>¿Qué son los sensores?</strong><br>
+                Los sensores son dispositivos que detectan cambios en el entorno físico (luz, temperatura, presión, proximidad, etc.) y convierten esos cambios en señales eléctricas que pueden ser procesadas.<br>
+                Aplicaciones comunes: automóviles, electrodomésticos, automatización industrial, robótica.</p>
+            </section>
+
+            <section data-background="#9b59b6">
+                <h1>Clasificación de Sensores</h1>
+                <p><strong>Clasificación por tipo:</strong></p>
+                <ul>
+                    <li>Ópticos: Detectan cambios en la luz o propiedades ópticas.</li>
+                    <li>Temperatura: Miden cambios en la temperatura.</li>
+                    <li>Presión: Detectan variaciones en la presión de gases o líquidos.</li>
+                    <li>Proximidad: Detectan objetos cercanos sin contacto físico.</li>
+                </ul>
+            </section>
+
+            <section data-background="#3498db">
+                <h1>Sensores Ópticos y de Temperatura</h1>
+                <p><strong>Ópticos:</strong><br>
+                - Tipos: Fotoeléctricos, infrarrojos, láser.<br>
+                - Funcionamiento: Trabajan con la emisión y recepción de luz.<br>
+                - Ejemplo: Un sensor de barrera fotoeléctrico utiliza un haz de luz y detecta cuando el haz se interrumpe.<br>
+                <strong>Temperatura:</strong><br>
+                - Tipos: Termopares, RTD, termistores.<br>
+                - Ejemplo: Un termopar se usa en hornos industriales para medir altas temperaturas.</p>
+            </section>
+
+            <section data-background="#2ecc71">
+                <h1>Sensores de Presión y Proximidad</h1>
+                <p><strong>Presión:</strong><br>
+                - Tipos: Sensores de presión absoluta, manométrica y diferencial.<br>
+                - Ejemplo: Un sensor de presión se utiliza en sistemas de climatización para monitorear la presión del aire.<br>
+                <strong>Proximidad:</strong><br>
+                - Tipos: Inductivos, capacitivos, ultrasónicos, fotoeléctricos.<br>
+                - Ejemplo: Un sensor de proximidad inductivo se usa en máquinas para detectar piezas metálicas.</p>
+            </section>
+
+            <section data-background="#1abc9c">
+                <h1>Conclusión</h1>
+                <p><strong>Resumen:</strong><br>
+                - Los sensores son fundamentales para la automatización y la interacción con el entorno.<br>
+                - Se clasifican según el tipo de variable que miden (ópticos, temperatura, presión, proximidad).<br>
+                - Cada tipo de sensor tiene modos de funcionamiento y comunicación específicos.</p>
+            </section>
+
+        </div>
+    </div>
+
+    <script>
+        Reveal.initialize({
+            controls: true,
+            progress: true,
+            history: true,
+            center: true,
+            transition: 'slide',
+            dependencies: [
+                { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+                { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+                { src: 'plugin/zoom-js/zoom.js', async: true },
+                { src: 'plugin/notes/notes.js', async: true }
+            ]
+        });
+    </script>
+
+</body>
+</html>
