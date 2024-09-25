@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>Actuadores</title>
+    <meta name="description" content="Presentación sobre actuadores eléctricos, mecánicos e hidráulicos">
+    <meta name="author" content="Tu Nombre">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/black.css" id="theme">
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.js"></script>
+
+    <style>
+        body {
+            background-color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="reveal">
+        <div class="slides">
+
+            <section data-background="#e74c3c">
+                <h1>Actuadores</h1>
+                <p><em>Subtítulo:</em> Eléctricos, Mecánicos e Hidráulicos<br>
+                <em>Tipos, Funcionamiento y Características</em></p>
+            </section>
+
+            <section data-background="#f1c40f">
+                <h1>Introducción</h1>
+                <p><em>¿Qué es un Actuador?</em><br>
+                Un actuador convierte energía en movimiento.<br>
+                Son cruciales en sistemas automatizados y máquinas industriales.</p>
+            </section>
+
+            <section data-background="#9b59b6">
+                <h1>Actuadores Eléctricos</h1>
+                <p><em>Actuadores Eléctricos:</em></p>
+                <ul>
+                    <li><em>Tipos:</em> DC, AC, servomotores, piezoeléctricos.</li>
+                    <li><em>Funcionamiento:</em> Convierte energía eléctrica en movimiento con alta precisión.</li>
+                    <li><em>Características:</em> Alta precisión, integración fácil, ligeros.</li>
+                    <li><em>Aplicaciones:</em> Robótica, sistemas de automatización.</li>
+                </ul>
+            </section>
+
+            <section data-background="#3498db">
+                <h1>Actuadores Mecánicos</h1>
+                <p><em>Actuadores Mecánicos:</em></p>
+                <ul>
+                    <li><em>Tipos:</em> Engranajes, levas, tornillos, poleas.</li>
+                    <li><em>Funcionamiento:</em> Transforman movimiento rotacional en lineal o viceversa.</li>
+                    <li><em>Características:</em> Robustos, sin necesidad de energía eléctrica, ideales para cargas pesadas.</li>
+                </ul>
+            </section>
+
+            <section data-background="#2ecc71">
+                <h1>Actuadores Hidráulicos</h1>
+                <p><em>Actuadores Hidráulicos:</em></p>
+                <ul>
+                    <li><em>Tipos:</em> Cilindros, motores y válvulas hidráulicas.</li>
+                    <li><em>Funcionamiento:</em> Utilizan líquidos presurizados para generar movimiento.</li>
+                    <li><em>Características:</em> Alta potencia, ideales para aplicaciones industriales pesadas.</li>
+                </ul>
+            </section>
+
+            <section data-background="#1abc9c">
+                <h1>Comparativa de Actuadores</h1>
+                <p><em>Comparativa entre Actuadores:</em></p>
+                <ul>
+                    <li><em>Eléctricos:</em> Alta precisión, bajo peso.</li>
+                    <li><em>Mecánicos:</em> Duraderos, sin energía externa.</li>
+                    <li><em>Hidráulicos:</em> Potencia y fuerza, pero de mayor tamaño.</li>
+                </ul>
+            </section>
+
+            <section data-background="#34495e">
+                <h1>Conclusión</h1>
+                <p><em>Resumen:</em><br>
+                - Los actuadores son claves en la automatización.<br>
+                - La elección del tipo depende de las necesidades de fuerza, precisión o simplicidad.</p>
+            </section>
+
+        </div>
+    </div>
+
+    <script>
+        Reveal.initialize({
+            controls: true,
+            progress: true,
+            history: true,
+            center: true,
+            transition: 'slide',
+            dependencies: [
+                { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+                { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+                { src: 'plugin/zoom-js/zoom.js', async: true },
+                { src: 'plugin/notes/notes.js', async: true }
+            ]
+        });
+    </script>
+
+</body>
+</html>
